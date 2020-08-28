@@ -15,7 +15,7 @@ echo color("blue","[•] PAIDOMU MOTIVASIKU 🤣 \n");
 echo color("green","[•] JANGAN LUPA BERDOA SEBELUM CLAIM \n");
 echo color("blue","[•] SUROBOYO LOST BOJOMU SEMANGATKU WKWKW \n");
 echo color("red","# # # # # # # # # # # # # # # # # # # # # # # \n");
-function register($no)
+function register($yes)
     {
     $nama = nama();
     $email = str_replace(" ", "", $nama) . mt_rand(1000, 9999);
